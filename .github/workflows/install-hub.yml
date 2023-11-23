@@ -1,0 +1,20 @@
+name: Install hub
+
+on:
+  push:
+    branches:
+      - main  # Replace with your main branch name
+
+jobs:
+  install-hub:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install hub
+        run: |
+          sudo apt-get update
+          sudo apt-get install snapd
+          sudo snap install --classic hub
