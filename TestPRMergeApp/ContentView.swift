@@ -17,6 +17,7 @@ struct ContentView: View {
             Text("Hello, world 2!")
             Text("Hello, world 3!")
             Text("Hello, world 4!")
+            Text("Hello, world 5!")
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
