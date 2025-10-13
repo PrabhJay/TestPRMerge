@@ -14,6 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world 1!")
+            Text("Hello, world 2!")
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
