@@ -7,16 +7,18 @@
 
 import SwiftUI
 
-            struct ContentView: View {
+struct ContentView: View {
+    let viewModel = ContentViewModel()
     var body: some View {
         VStack {
-                Image(systemName: "globe")
+            Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world 1!")
-                Text("Hello, world 2!")
-                Text("Hello, world 3!")
-Text("Hello, world 4!")
+            Text("Hello, world 2!")
+            Text("Hello, world 3!")
+            Text("Hello, world 4!")
+            Text(viewModel.calculate(a: 20, b: 20))
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
