@@ -7,18 +7,10 @@
 
 struct ContentViewModel {
     func calculate(a: Int, b: Int) -> String {
-        if FeatureStore.darkModeSupport.isEnabled {
             return "\(a + b)"
-        } else {
-            return "\(a - b)"
-        }
     }
 
     func calculate2(a: Int, b: Int) -> String {
-        if FeatureStore.darkModeSupport.isEnabled {
             return "\(a + b)"
-        } else {
-            return "\(a - b)"
-        }
     }
 }
