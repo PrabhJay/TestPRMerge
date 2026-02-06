@@ -17,10 +17,6 @@ extension FeatureStore {
         source: "newOnboardingFlow"
     )
 
-    static let darkModeSupport = FeatureDescriptor(
-        purpose: "To provide dark mode support in the application.",
-        source: "darkModeSupport"
-    )
 
     static let betaChatFeature = FeatureDescriptor(
         purpose: "To allow users to access the beta version of the chat feature.",
